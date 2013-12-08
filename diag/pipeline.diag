@@ -1,0 +1,12 @@
+diagram {
+orientation = portrait
+
+ Sources [shape = "roundedbox"];
+ Code [shape = "roundedbox"];
+ Test [shape = "roundedbox"];
+ Build [shape = "roundedbox"];
+ Packaging [shape = "roundedbox", color = "#77FF77"];
+ Livraison [shape = "roundedbox", color = "#77FF77"];
+
+Sources -> Code -> Test -> Build -> Packaging -> Livraison;
+}

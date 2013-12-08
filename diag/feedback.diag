@@ -1,0 +1,12 @@
+blockdiag {
+   A [label = "Feedback rapide", color = "pink"];
+   B [label = "+ informations"];
+   C [label = "- incertitude"];
+   D [label = "+ efficacité"];
+   E [label = "+ apprentissage"];
+   F [label = "- long planning"];
+
+   A -> B -> C -> D; 
+   E -> D;
+   B -> E -> D -> F;
+}

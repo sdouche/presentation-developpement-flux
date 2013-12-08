@@ -1,0 +1,12 @@
+blockdiag {
+  orientation = portrait
+
+  A [label = "Vous", color = "pink"];
+  B [label = "Votre manager"];
+  C [label = "Responsable local"];
+  D [label = "Responsable groupe"];
+  E [label = "Fournisseur"];
+  F [label = "Producteur"];
+
+  A -> B -> C -> D -> E -> F;
+}
